@@ -1,0 +1,19 @@
+body {
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+canvas {
+  border-radius: 4px;
+  box-shadow: 2px 3px 4.5p #fff;
+}
+
+@media only screen and (max-width: 600px) {
+  canvas {
+    width: 400px;
+    height: 300px;
+  }
+}
