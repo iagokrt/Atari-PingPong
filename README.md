@@ -1,22 +1,40 @@
+# Atari Ping Pong (Vanilla JavaScript)
 
-# Pong - Atari | With Vanilla JavaScript
+Projeto simples de **Pong estilo Atari** feito com **HTML, CSS e JavaScript puro**.
 
-  
+## 🎮 Sobre
 
-## Code a game using JavaScript
+Este repositório é uma implementação de estudo para praticar lógica de jogo com `canvas`, animação em loop e colisão básica.
 
-  
+- Jogador da esquerda: controlado pelo mouse.
+- Jogador da direita: controlado por IA simples.
+- Vitória: primeiro a atingir **3 pontos**.
 
-- A great way to start learning about game development and software development is to create a game.
+## 🚀 Como executar
 
-- Atari Pong game is a classic game officially release in 1972.
+Como é um projeto estático, basta abrir o arquivo `index.html` no navegador.
 
-  
+### Opção 1 (rápida)
+- Clique duas vezes no arquivo `index.html`.
 
------
+### Opção 2 (servidor local recomendado)
+No diretório do projeto, execute:
 
-- This project is only using vanilla JavaScript and Basic usage of HTML/CSS.
+```bash
+python3 -m http.server 8080
+```
 
-- It is not properly designed as it means is a game prototyping experience of  what/how and why javaScript language works.
+Depois acesse: `http://localhost:8080`
+
+## 🕹️ Controles
+
+- **Mover raquete esquerda:** mova o mouse sobre o canvas.
+- **Reiniciar partida após vitória:** clique com o mouse dentro da página.
+
+## 📁 Documentação adicional
+
+Foi criada a pasta [`docs/`](docs/) com detalhes de estrutura e funcionamento.
+
+## 🖼️ Preview
 
 ![vanillajs](https://raw.githubusercontent.com/iagokrt/Atari-PingPong/master/vanilla.png)
